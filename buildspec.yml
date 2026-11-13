@@ -1,0 +1,16 @@
+
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Starting DevOps Build"
+
+  build:
+    commands:
+      - echo "Building HTML Website"
+      - ls -la
+
+artifacts:
+  files:
+    - index.html
